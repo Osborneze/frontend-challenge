@@ -1,0 +1,135 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(243, 235, 228);
+}
+.flex-wrap{ display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left:50px ;
+}
+.form-cont {
+  border: solid white;
+  width: 40%;
+  margin: 50px;
+  padding-left: 50px;
+  margin-left: 50px;
+  margin-top: 550px;
+  margin-bottom: 555px;
+  background-color:  hsl(0, 0%, 100%)
+  ;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 40px;
+  max-width: 80%;
+  min-height:50vh;
+}
+.container {
+  width: 40%;
+  margin: 50px;
+  margin-left: 80px;
+}
+.img-desk {
+  margin-left: 40px;
+  margin-top: 500px;
+  margin-bottom: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.perf-con {
+  font-weight: 200;
+
+  font-size: medium;
+}
+.parfum {
+  font-weight: 700;
+  font-size: larger;
+}
+.floral {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+}
+#money {
+  margin-top: 30px;
+}
+.dollar {
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+.dol{
+    font-size: small;
+    margin-left: 20px;
+}
+.btn-add{
+    margin-bottom: 40px;
+    border:solid black;
+}
+.btn-cart{
+  padding:10px 60px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color:white;
+  
+}
+.btn-cart:hover{background-color:  hsl(228, 12%, 48%);
+  cursor: pointer;
+
+}
+.icon{
+  width:10px;
+} 
+/* i am finding it difficult to make the mobile-view responsive. it looks like the image is static.  */
+/* mobile-view */
+  
+  @media screen and (max-width:750px){
+    body{
+      
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 150%;
+     
+      
+      
+
+
+
+      .form-cont {border: solid white;
+        width: 100%;
+        margin: 50px;
+        padding-left: 50px;
+        margin-left: 50px;
+        margin-top: 550px;
+        margin-bottom: 555px;
+        background-color:  hsl(0, 0%, 100%)
+        ;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-top: 40px;
+        /* max-width: 80%; */
+       
+
+      }
+      
+      .img-desk {
+        margin-left: 40px;
+        margin-top: 500px;
+        margin-bottom: 500px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+      
+
+    }
+/* desktop-view */
+    @media screen and (min-width:1000px){
+      .form-cont{width: 100%;
+       
+        .img-desk{width: 100%;}
+        */
